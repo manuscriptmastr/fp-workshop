@@ -24,8 +24,6 @@ nvm use 14
 npm install
 ```
 
-4. Follow along with the 5-part [Degreed Pathway](https://degreed.com/pathway/08q431el9r?path=functional-programming-workshop)
-
 ## :keyboard: Scripts
 
 ```bash
