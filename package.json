@@ -1,0 +1,47 @@
+{
+  "name": "fp-workshop",
+  "version": "1.0.0",
+  "description": "Workbook for the Functional Programming Workshop",
+  "main": "playground.js",
+  "type": "module",
+  "scripts": {
+    "playground": "node --experimental-specifier-resolution=node playground.js",
+    "test": "ava --verbose --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willowtreeapps/fp-workshop.git"
+  },
+  "keywords": [
+    "functional programming",
+    "object oriented programming",
+    "workshop",
+    "fp",
+    "oop",
+    "recipes",
+    "currying",
+    "partial application",
+    "containers",
+    "higher order functions",
+    "composers"
+  ],
+  "author": {
+    "name": "Joshua Martin",
+    "email": "joshua.martin@willowtreeapps.com",
+    "url": "http://github.com/manuscriptmastr"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willowtreeapps/fp-workshop/issues"
+  },
+  "homepage": "https://github.com/willowtreeapps/fp-workshop#readme",
+  "dependencies": {
+    "@types/ramda": "^0.27.6",
+    "@types/sanctuary": "^0.14.2",
+    "ava": "^3.9.0",
+    "nock": "^12.0.3",
+    "node-fetch": "^2.6.0",
+    "ramda": "^0.27.0",
+    "sanctuary": "^3.0.0"
+  }
+}
