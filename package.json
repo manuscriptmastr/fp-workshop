@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/willowtreeapps/fp-workshop.git"
+    "url": "git+https://github.com/manuscriptmastr/fp-workshop.git"
   },
   "keywords": [
     "functional programming",
@@ -32,9 +32,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/willowtreeapps/fp-workshop/issues"
+    "url": "https://github.com/manuscriptmastr/fp-workshop/issues"
   },
-  "homepage": "https://github.com/willowtreeapps/fp-workshop#readme",
+  "homepage": "https://github.com/manuscriptmastr/fp-workshop#readme",
   "dependencies": {
     "@types/ramda": "^0.27.6",
     "@types/sanctuary": "^0.14.2",
