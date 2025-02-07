@@ -1,5 +1,5 @@
 import { deepStrictEqual as eq, fail } from 'assert';
-import { clean, show } from './support';
+import { clean, show } from './support/index.js';
 import R from 'ramda';
 const { compose, curry, curryN, partial, partialRight, pipe } = R;
 
