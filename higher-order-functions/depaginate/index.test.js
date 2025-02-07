@@ -1,7 +1,7 @@
 import test from 'ava';
 import R from 'ramda';
-import depaginate from '../../solutions/higher-order-functions/depaginate';
-// import depaginate from '.';
+import depaginate from '../../solutions/higher-order-functions/depaginate.js';
+// import depaginate from './index.js';
 
 test('depaginate(fn) returns empty array when first fn(page) returns empty array', async t => {
   let timesCalled = 0;

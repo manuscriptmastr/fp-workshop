@@ -1,7 +1,7 @@
 import test from 'ava';
 import R from 'ramda';
-import memo from '../../solutions/higher-order-functions/memo';
-// import memo from '.';
+import memo from '../../solutions/higher-order-functions/memo.js';
+// import memo from './index.js';
 
 test('memo(fn) returns result of fn', t => {
   const add = (a, b) => a + b;

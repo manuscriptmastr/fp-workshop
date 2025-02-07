@@ -1,6 +1,6 @@
 import R from 'ramda';
 const { chain, compose, curry, curryN, partial, partialRight, pipe } = R;
-import Maybe, { Just, Nothing } from '../../solutions/containers/Maybe';
+import Maybe, { Just, Nothing } from '../../solutions/containers/Maybe.js';
 
 // find :: (a -> Boolean) -> [a] -> Maybe a
 export const find;

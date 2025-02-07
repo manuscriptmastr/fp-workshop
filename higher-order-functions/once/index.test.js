@@ -1,7 +1,7 @@
 import test from 'ava';
 import R from 'ramda';
-import once from '../../solutions/higher-order-functions/once';
-// import once from '.';
+import once from '../../solutions/higher-order-functions/once.js';
+// import once from './index.js';
 
 test('once(fn) returns result of fn', t => {
   const identity = val => val;

@@ -1,6 +1,6 @@
 import test from 'ava';
-import filterByQuery from '../../solutions/problems/filter-by-query';
-// import filterByQuery from '.';
+import filterByQuery from '../../solutions/problems/filter-by-query.js';
+// import filterByQuery from './index.js';
 
 const JANUARY_1_1811 = -5017593600;
 const JANUARY_5_1811 = -5017248000;

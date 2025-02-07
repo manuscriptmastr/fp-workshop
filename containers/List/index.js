@@ -1,6 +1,6 @@
 import R from 'ramda';
 const { curry, partialRight } = R;
-import { show } from '../../support';
+import { show } from '../../support/index.js';
 
 // List :: TypeRep List
 // List :: {

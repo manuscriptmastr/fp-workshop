@@ -1,6 +1,6 @@
 import R from 'ramda';
 const { curry, curryN, partial, partialRight } = R;
-import o from '../../composers/o';
+import o from '../../composers/o.js';
 
 /*
 Waiting a specified amount of time is quite simple with setTimeout() and async/await.

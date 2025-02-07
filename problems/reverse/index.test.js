@@ -1,9 +1,9 @@
 import test from 'ava';
 import R from 'ramda';
-import { clean } from '../../support';
-import List, { Cons, Nil } from '../../solutions/containers/List';
-import reverse, { of, concat, empty, reduce } from '../../solutions/problems/reverse';
-// import reverse, { of, concat, empty, reduce } from '.';
+import { clean } from '../../support/index.js';
+import List, { Cons, Nil } from '../../solutions/containers/List.js';
+import reverse, { of, concat, empty, reduce } from '../../solutions/problems/reverse.js';
+// import reverse, { of, concat, empty, reduce } from './index.js';
 
 Array.empty = () => [];
 

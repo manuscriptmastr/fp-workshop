@@ -1,6 +1,6 @@
 import R from 'ramda';
 const { compose, chain, curry, curryN, partial, partialRight, map, pipe } = R;
-import Maybe, { Just, Nothing } from '../../solutions/containers/Maybe';
+import Maybe, { Just, Nothing } from '../../solutions/containers/Maybe.js';
 
 // data Symbol = String | Int
 // prop :: Symbol -> {Symbol: a} -> Maybe a

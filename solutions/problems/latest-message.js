@@ -1,6 +1,6 @@
 import R from 'ramda';
 const { chain, curry, curryN, pipe } = R;
-import Maybe, { Just, Nothing } from '../containers/Maybe';
+import Maybe, { Just, Nothing } from '../containers/Maybe.js';
 
 export const find = curryN(2, pipe(
   (pred, arr) => arr.find(pred),

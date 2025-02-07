@@ -1,8 +1,8 @@
 import test from 'ava';
-import { clean } from '../../support';
-import Maybe, { Just, Nothing } from '../../solutions/containers/Maybe';
-import getLatestMessage, { find, propEq } from '../../solutions/problems/latest-message';
-// import getLatestMessage, { chain, find, propEq } from '.';
+import { clean } from '../../support/index.js';
+import Maybe, { Just, Nothing } from '../../solutions/containers/Maybe.js';
+import getLatestMessage, { find, propEq } from '../../solutions/problems/latest-message.js';
+// import getLatestMessage, { chain, find, propEq } from './index.js';
 
 const LETTER_1 = {
   name: 'Marianne Dashwood',

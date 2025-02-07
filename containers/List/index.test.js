@@ -1,8 +1,8 @@
 import test from 'ava';
 import R from 'ramda';
-import { clean } from '../../support';
-import List, { Cons, Nil } from '../../solutions/containers/List';
-// import List, { Cons, Nil } from '.';
+import { clean } from '../../support/index.js';
+import List, { Cons, Nil } from '../../solutions/containers/List.js';
+// import List, { Cons, Nil } from './index.js';
 
 test('Nil is nothing', t => {
   t.deepEqual(clean(Nil), { isCons: false, isNil: true });

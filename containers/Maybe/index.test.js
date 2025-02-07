@@ -1,8 +1,8 @@
 import test from 'ava';
 import R from 'ramda';
-import { clean } from '../../support';
-import Maybe, { Just, Nothing } from '../../solutions/containers/Maybe';
-// import Maybe, { Just, Nothing } from '.';
+import { clean } from '../../support/index.js';
+import Maybe, { Just, Nothing } from '../../solutions/containers/Maybe.js';
+// import Maybe, { Just, Nothing } from './index.js';
 
 test('Just(value) contains passed in value', t => {
   t.deepEqual(clean(Just(1)), { isJust: true, isNothing: false, value: 1 });

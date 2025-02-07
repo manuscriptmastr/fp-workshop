@@ -1,7 +1,7 @@
 import test from 'ava';
 import R from 'ramda';
-import pipe, { pipeWith } from '../../solutions/composers/pipe';
-// import pipe, { pipeWith } from '.';
+import pipe, { pipeWith } from '../../solutions/composers/pipe.js';
+// import pipe, { pipeWith } from './index.js';
 
 test('pipe(fn) returns result of fn', t => {
   t.deepEqual(pipe(R.add)(1, 2), 3);

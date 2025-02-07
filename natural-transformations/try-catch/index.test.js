@@ -1,7 +1,7 @@
 import test from 'ava';
 import R from 'ramda';
-import tryCatch from '../../solutions/natural-transformations/try-catch';
-// import tryCatch from '.';
+import tryCatch from '../../solutions/natural-transformations/try-catch.js';
+// import tryCatch from './index.js';
 
 test('tryCatch(fn) returns Right(value) when fn is successful', t => {
   const result = tryCatch(R.add)(1, 2);

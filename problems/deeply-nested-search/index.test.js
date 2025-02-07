@@ -1,8 +1,8 @@
 import test from 'ava';
-import { clean } from '../../support';
-import Maybe, { Just, Nothing } from '../../solutions/containers/Maybe';
-import path, { prop } from '../../solutions/problems/deeply-nested-search';
-// import path, { prop } from '.';
+import { clean } from '../../support/index.js';
+import Maybe, { Just, Nothing } from '../../solutions/containers/Maybe.js';
+import path, { prop } from '../../solutions/problems/deeply-nested-search.js';
+// import path, { prop } from './index.js';
 
 test('prop(key, objOrArr) returns Just(value) when value exists', t => {
   t.deepEqual(clean(prop('x', { x: 1 })), clean(Just(1)));

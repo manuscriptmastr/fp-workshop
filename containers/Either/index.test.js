@@ -1,8 +1,8 @@
 import test from 'ava';
 import R from 'ramda';
-import { clean, show } from '../../support';
-import Either, { Left, Right } from '../../solutions/containers/Either';
-// import Either from '.';
+import { clean, show } from '../../support/index.js';
+import Either, { Left, Right } from '../../solutions/containers/Either.js';
+// import Either from './index.js';
 
 test('Left(value) contains passed in value', t => {
   t.deepEqual(clean(Left(1)), { isLeft: true, isRight: false, value: 1 });

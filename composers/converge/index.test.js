@@ -1,7 +1,7 @@
 import test from 'ava';
 import R from 'ramda';
-import converge from '../../solutions/composers/converge';
-// import converge from '.';
+import converge from '../../solutions/composers/converge.js';
+// import converge from './index.js';
 
 test('converge(fn, fns) returns result of fn without arguments', t => {
   t.deepEqual(converge(R.always(3), [])(), 3);

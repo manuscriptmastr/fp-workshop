@@ -1,7 +1,7 @@
 import test from 'ava';
 import R from 'ramda';
-import Task from '../../solutions/containers/Task';
-// import Task from '.';
+import Task from '../../solutions/containers/Task.js';
+// import Task from './index.js';
 
 const reject = value => (rej, res) => rej(value);
 const resolve = value => (rej, res) => res(value);

@@ -1,7 +1,7 @@
 import test from 'ava';
 import nock from 'nock';
-import FetchClient from '.';
-// import fetch, { getToken } from '.';
+import FetchClient from './index.js';
+// import fetch, { getToken } from './index.js';
 const {
   API,
   USERNAME,

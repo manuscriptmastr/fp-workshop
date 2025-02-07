@@ -1,7 +1,7 @@
 import test from 'ava';
 import R from 'ramda';
-import retry from '../../solutions/higher-order-functions/retry';
-// import retry from '.';
+import retry from '../../solutions/higher-order-functions/retry.js';
+// import retry from './index.js';
 
 const raise = err => { throw err };
 

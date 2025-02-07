@@ -1,6 +1,6 @@
 import R from 'ramda';
 const { curry, curryN, partialRight, pipe } = R;
-import { show } from '../../support';
+import { show } from '../../support/index.js';
 
 const _Nil = {
   show: () => `Nil`,

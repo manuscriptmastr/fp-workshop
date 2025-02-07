@@ -1,8 +1,8 @@
 import test from 'ava';
 import R from 'ramda';
-import { Cons, Nil } from '../../solutions/containers/List';
-import assocDictionary from '../../solutions/problems/letter-frequency';
-// import assocDictionary from '.';
+import { Cons, Nil } from '../../solutions/containers/List.js';
+import assocDictionary from '../../solutions/problems/letter-frequency.js';
+// import assocDictionary from './index.js';
 
 String.prototype.reduce = R.curry(function(fn, acc) {
   const _reduce = (fn, acc, str) =>

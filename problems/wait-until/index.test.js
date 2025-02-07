@@ -1,6 +1,6 @@
 import test from 'ava';
-import { wait, waitUntil, untilTime } from '../../solutions/problems/wait-until';
-// import { wait, waitUntil, untilTime } from '.';
+import { wait, waitUntil, untilTime } from '../../solutions/problems/wait-until.js';
+// import { wait, waitUntil, untilTime } from './index.js';
 
 test('wait(ms) waits specified ms', async t => {
   t.timeout(500);

@@ -1,6 +1,6 @@
 import test from 'ava';
 import R from 'ramda';
-import map from '../../solutions/higher-order-functions/map';
+import map from '../../solutions/higher-order-functions/map.js';
 
 test('map(fn, array) returns empty array when passed an empty array', t => {
   t.deepEqual(map(R.multiply(2), []), []);

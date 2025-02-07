@@ -1,6 +1,6 @@
 import test from 'ava';
 import R from 'ramda';
-import filter from '../../solutions/higher-order-functions/filter';
+import filter from '../../solutions/higher-order-functions/filter.js';
 
 test('filter(predicate, array) returns empty array when passed empty array', t => {
   t.deepEqual(filter(R.is(Number), []), []);

@@ -1,4 +1,4 @@
-import { show } from '../../support';
+import { show } from '../../support/index.js';
 
 // Map :: {k: v} -> Map {k: v}
 // Map :: {

@@ -1,7 +1,7 @@
 import test from 'ava';
 import R from 'ramda';
-import o from '../../solutions/composers/o';
-// import o from '.';
+import o from '../../solutions/composers/o.js';
+// import o from './index.js';
 
 test('o(fn2, fn1) applies the result of fn1 to fn2 when provided a value', t => {
   t.deepEqual(o(R.add(2), R.multiply(2))(3), 8);

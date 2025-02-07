@@ -11,11 +11,11 @@ git clone git@github.com:manuscriptmastr/fp-workshop.git
 cd fp-workshop
 ```
 
-2. Install Node 14 (this package uses modules)
+2. Install Node 21
 
 ```bash
-nvm install 14
-nvm use 14
+nvm install 21
+nvm use 21
 ```
 
 3. Install package dependencies
@@ -40,7 +40,7 @@ npm run playground
 
 ## :runner: Practice
 
-To practice a recipe, navigate to `{recipe}/index.test.js` and replace the line `import {recipe} from '../solutions/{recipe}'` with `import {recipe} from '.'` Run `npm run test` and tests should fail. Define your recipe in `{recipe}/index.js` until all tests pass!
+To practice a recipe, navigate to `{recipe}/index.test.js` and replace the line `import {recipe} from '../solutions/{recipe}.js'` with `import {recipe} from '.index.js'` Run `npm run test` and tests should fail. Define your recipe in `{recipe}/index.js` until all tests pass!
 
 If you get stumped, you can always refer to `solutions/{recipe}.js`. But who does that help :man_shrugging:?
 

@@ -1,4 +1,4 @@
-import { show } from '../../support';
+import { show } from '../../support/index.js';
 
 export const Just = value => ({
   value,

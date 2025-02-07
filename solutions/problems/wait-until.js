@@ -1,4 +1,4 @@
-import o from '../composers/o';
+import o from '../composers/o.js';
 
 export const wait = ms => new Promise(res => setTimeout(res, ms));
 

@@ -1,5 +1,5 @@
 import _fetch from 'node-fetch';
-import once from '../higher-order-functions/once';
+import once from '../higher-order-functions/once.js';
 const {
   API,
   USERNAME,

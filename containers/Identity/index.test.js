@@ -1,8 +1,8 @@
 import test from 'ava';
 import R from 'ramda';
-import { clean } from '../../support';
-import Identity from '../../solutions/containers/Identity';
-// import Identity from '.';
+import { clean } from '../../support/index.js';
+import Identity from '../../solutions/containers/Identity.js';
+// import Identity from './index.js';
 
 test('Identity(value) contains passed in value', t => {
   t.deepEqual(clean(Identity(1)), { value: 1 });

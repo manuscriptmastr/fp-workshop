@@ -1,6 +1,6 @@
 import R from 'ramda';
-import map from '../../solutions/higher-order-functions/map';
-import { pipeWith } from '../../solutions/composers/pipe';
+import map from '../../solutions/higher-order-functions/map.js';
+import { pipeWith } from '../../solutions/composers/pipe.js';
 import fetch from 'node-fetch';
 const {
   API

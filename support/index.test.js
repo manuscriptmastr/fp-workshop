@@ -1,5 +1,5 @@
 import test from 'ava';
-import { clean, show } from '.';
+import { clean, show } from './index.js';
 
 test('clean(object) removes methods from object', t => {
   t.deepEqual(

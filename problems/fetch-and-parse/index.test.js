@@ -8,8 +8,8 @@ import getUsers, {
   parseUser,
   rejectIfNotOkay,
   then
-} from '../../solutions/problems/fetch-and-parse';
-// import getUsers, { fetchUsers, json, parseUser, rejectIfNotOkay, then } from '.';
+} from '../../solutions/problems/fetch-and-parse.js';
+// import getUsers, { fetchUsers, json, parseUser, rejectIfNotOkay, then } from './index.js';
 const {
   API
 } = process.env;

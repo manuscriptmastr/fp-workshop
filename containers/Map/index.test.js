@@ -1,8 +1,8 @@
 import test from 'ava';
 import R from 'ramda';
-import { clean } from '../../support';
-import Map from '../../solutions/containers/Map';
-// import Map from '.';
+import { clean } from '../../support/index.js';
+import Map from '../../solutions/containers/Map.js';
+// import Map from './index.js';
 
 test('Map(object) contains passed in value', t => {
   t.deepEqual(Map({ a: 1, b: 2, c: 3 }).value, { a: 1, b: 2, c: 3 });

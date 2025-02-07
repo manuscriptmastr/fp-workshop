@@ -1,5 +1,5 @@
 import R from 'ramda';
-import { Left, Right } from '../../solutions/containers/Either';
+import { Left, Right } from '../../solutions/containers/Either.js';
 
 export default fn => R.curryN(fn.length, (...args) => {
   try {
